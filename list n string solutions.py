@@ -22,22 +22,6 @@ print(deepest_nesting(nested_list))
 
 
 2.
-def can_partition(nums, k, max_sum):
-    
-    sublist_count = 1
-    current_sum = 0
-    
-    for num in nums:
-        if current_sum + num > max_sum:
-            sublist_count += 1
-            current_sum = num
-            if sublist_count > k:
-                return False
-        else:
-            current_sum += num
-            
-    return sublist_count <= k
-
 def split_list(nums, k):
     left, right = max(nums), sum(nums)  
     best_max_sum = right
