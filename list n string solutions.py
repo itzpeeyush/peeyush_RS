@@ -15,7 +15,7 @@ def deepest_nesting(lst):
 
     return max_depth
 
-nested_list =  [3, [4, [],],]
+nested_list =  [35, [48,[78,[99,[67,[],],],],82],58]
 print(deepest_nesting(nested_list))  
 
 
@@ -53,8 +53,8 @@ def split_list(nums, k):
     return sublists
 
 
-nums = [7, 2, 5, 10, 8,9,10,22,33,44]
-k = 3
+nums = [777, 20, 55, 81,94,10,22,33,44,82,56,78,98,54]
+k = 5
 print(split_list(nums, k))  
 
 
@@ -93,7 +93,7 @@ def shuffle_restricted(lst):
     return shuffled
 
 
-lst = [1, 2, 3, 4, 5]
+lst = [11, 22, 34, 48, 59]
 print(shuffle_restricted(lst))
 
 
@@ -127,8 +127,8 @@ def list_intersection(lst1, lst2):
     return list(set(lst1) & set(lst2))  
 
 
-list1 = [1, 2, 3, 4, 5, 6,7]
-list2 = [4, 5, 6, 7, 8, 9,7]
+list1 = [1, 2, 3, 4, 5, 6,7,99,14]
+list2 = [4, 5, 6, 7, 8, 9,7,99,13]
 
 print(list_intersection(list1, list2)) 
 
