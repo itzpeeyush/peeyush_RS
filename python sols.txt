@@ -44,8 +44,8 @@ print("The sum of the first", num, "numbers is:", sum)
 
 4.
 L = {'a': [1, 2, 3], 'b': [3, 4, 5], 'c': [5, 6, 1,7]}
-new_dict = remove_duplicate_values(L)
-print(L)
+M = remove_duplicate_values(L)
+print(M)
 
 
 5.
