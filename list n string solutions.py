@@ -50,7 +50,7 @@ print(list_intersection(list1, list2))
 def to_acronym(words):
     return " ".join(word[0].upper() for word in words)
 
-words = ["peeyush", "priyadarshan", "Irana"]
+words = ["peeyush", "priyadarshan", "rana"]
 print(to_acronym(words))  
 
 
